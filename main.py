@@ -26,8 +26,7 @@ class Main(KytosNApp):
         """Query all switches sequentially and then sleep before repeating."""
         switches = list(self.controller.switches.values())
         for switch in switches:
-            if switch.is_connected():
-                self._update_stats(switch)
+            self._update_stats(switch)
 
     def shutdown(self):
         """End of the application."""
@@ -35,7 +34,7 @@ class Main(KytosNApp):
 
     def _update_stats(self, switch):
         for stats in self._stats.values():
-            if switch.connection is not None:
+            if switch.is_connected():
                 stats.request(switch.connection)
 
     @listen_to('kytos/of_core.v0x01.messages.in.ofpt_stats_reply')
