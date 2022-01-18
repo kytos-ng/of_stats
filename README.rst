@@ -2,14 +2,6 @@
 Overview
 ########
 
-**WARNING: As previously announced on our communication channels, the Kytos
-project will enter the "shutdown" phase on May 31, 2021. After this date,
-only critical patches (security and core bug fixes) will be accepted, and the
-project will be in "critical-only" mode for another six months (until November
-30, 2021). For more information visit the FAQ at <https://kytos.io/faq>. We'll
-have eternal gratitude to the entire community of developers and users that made
-the project so far.**
-
 |License| |Build| |Coverage| |Quality|
 
 In order to manage a network, an administrator must have updated and reliable
@@ -174,14 +166,14 @@ Some changes in ``settings.py`` require recreating the database. Check the
 section ``Deleting the database`` below.
 
 
-.. |License| image:: https://img.shields.io/github/license/kytos/kytos.svg
+.. |License| image:: https://img.shields.io/github/license/kytos-ng/kytos.svg
    :target: https://github.com/kytos-ng/of_stats/blob/master/LICENSE
-.. |Build| image:: https://scrutinizer-ci.com/g/kytos/of_stats/badges/build.png?b=master
+.. |Build| image:: https://scrutinizer-ci.com/g/kytos-ng/of_stats/badges/build.png?b=master
   :alt: Build status
-  :target: https://scrutinizer-ci.com/g/kytos/of_stats/?branch=master
-.. |Coverage| image:: https://scrutinizer-ci.com/g/kytos/of_stats/badges/coverage.png?b=master
+  :target: https://scrutinizer-ci.com/g/kytos-ng/of_stats/?branch=master
+.. |Coverage| image:: https://scrutinizer-ci.com/g/kytos-ng/of_stats/badges/coverage.png?b=master
   :alt: Code coverage
-  :target: https://scrutinizer-ci.com/g/kytos/of_stats/?branch=master
-.. |Quality| image:: https://scrutinizer-ci.com/g/kytos/of_stats/badges/quality-score.png?b=master
+  :target: https://scrutinizer-ci.com/g/kytos-ng/of_stats/?branch=master
+.. |Quality| image:: https://scrutinizer-ci.com/g/kytos-ng/of_stats/badges/quality-score.png?b=master
   :alt: Code-quality score
-  :target: https://scrutinizer-ci.com/g/kytos/of_stats/?branch=master
+  :target: https://scrutinizer-ci.com/g/kytos-ng/of_stats/?branch=master
