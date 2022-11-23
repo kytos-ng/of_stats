@@ -26,33 +26,13 @@ The provided statistics, per switch, are:
 Installing
 ##########
 
-*****************
-NApp installation
-*****************
-All of the Kytos Network Applications are located in the online NApps
-repository. To install this NApp, run:
-
-.. code-block:: shell
-
-   kytos napps install kytos/of_stats
-
+To install this NApp, first, make sure to have the same venv activated as you have ``kytos`` installed on:
 
 .. code:: shell
 
-   kytos napps install kytos/topology
-
-**********
-Developers
-**********
-To run the NApp from the source code, install the requirements and run:
-
-.. code-block:: shell
-
-   git clone https://github.com/kytos-ng/of_stats.git
-   cd of_stats
-   kytos napps install kytos/of_stats
-
-With the setup above, ``git pull`` will update NApp.
+   $ git clone https://github.com/kytos-ng/of_stats.git
+   $ cd flow_manager
+   $ python3 setup.py develop
 
 ###########
 Configuring
