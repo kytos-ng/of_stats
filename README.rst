@@ -1,3 +1,9 @@
+.. raw:: html
+
+  <div align="center">
+   <h2><code>of_stats has been deprecated⚠️</code></h2>
+  </div>
+
 ########
 Overview
 ########
